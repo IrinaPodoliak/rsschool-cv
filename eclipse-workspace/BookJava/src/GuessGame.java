@@ -19,7 +19,7 @@ public class GuessGame {
 		int targeNumber = (int) (Math.random() * 10);
 		System.out.println("Я загадываю число от 0 до 9 ...");
 		while (true) {
-			System.out.println("Число, которое нужно угадать, - " + targeNumber);
+			System.out.println(i"Число, которое нужно угадать, - " + targeNumber);
 			p1.guess();
 			p2.guess();
 			p3.guess();
