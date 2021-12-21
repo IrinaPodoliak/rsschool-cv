@@ -25,3 +25,23 @@
 * responsibility
 * punctuality
 * stress-resistance
+### Code example
+``` javascript
+function likes(names) {
+        names = names || [];
+        switch(names.length){
+            case 0: return 'no one likes this'; break;
+            case 1: return names[0] + ' likes this'; break;
+            case 2: return names[0] + ' and ' + names[1] + ' like this'; break;
+            case 3: return names[0] + ', ' + names[1] + ' and ' + names[2] + ' like this'; break;
+            default: return names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this';
+```
+### Working experience
+5-year career in a restaurant (hostess-waitress-administrator-trainee)
+### Education
+* Belarus State Economic University (The high School of Tourism)
+* BeOnMax courses (HTML/CSS, Bootstrap, HTML/CSS from beginner to advanced)
+### Languages
+* English: B2
+* German: A1
+* Russian: Native
