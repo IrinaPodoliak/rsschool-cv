@@ -4,9 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/default.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script>
+    <link rel="shortcut icon" type="image/png" href="cv_icon.png"/>
+    <title>CV</title>
 </head>
 <body>
+    <header class="main_header">
+        <h1>Podoliak Irina</h1>
+        <div class="photo">
+            <img src="me.jpeg" alt="photo">
+        </div>
+        <div class="subheader">
+            <h2>Junior Front-end Developer</h2></div>
+        <br>
+        <div class="container">
+        <nav class="header_nav">
+            <ul class="menu menu_active">
+                <li class="menu_item"><a href="#cont">Contacts</a></li>
+                <li class="menu_item"><a href="#skills_section">Skills</a></li>
+                <li class="menu_item"><a href="#code">Code Example</a></li>
+                <li class="menu_item"><a href="#exp">Working Experience</a></li>
+                <li class="menu_item"><a href="#edu">Education</a></li>
+                <li class="menu_item"><a href="#lang">Languages</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger hamburger_active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    </header>
+    <main>
+        <aside id="cont">
+            <ul class="cont_list">
+                <li>+375447915477</li>
+                <li>irishechka20011@gmail.com</li>
+            </ul>
+        </aside>
+        <article>
+            <h3>Aimed to</h3>
+             Start a career as a front-end developer and improve my knowledges in this sphere. I have leadership qualities, but also can be a good team-player. A workaholic by nature. Used to be a hard-working person. Previous work experience was mostly in hospitality industry.
+        </article>
+        <section id="video">
+            <h3>Self-presentation</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/izJSIa019YY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="skills_section">
+            <h3>Skills</h3>
+            <ul class="skills">
+                <li class="skills_item">
+                        <h4>HTML</h4>
+                        <img class="skills_img" src="html_icon.png" alt="html">
+                </li>
+                <li class="skills_item">
+                        <h4>CSS</h4>
+                        <img class="skills_img" src="css_icon.png" alt="css">
+                </li>
+                <li class="skills_item"> 
+                    <h4>Sass</h4>
+                    <img class="skills_img" src="sass_icon.png" alt="sass">
+                </li>
+                <li class="skills_item">
+                        <h4>Bootstrap</h4>
+                        <img class="skills_img" src="bootstrap-logo-vector.svg" alt="bootstrap">
+                </li>
+                <li class="skills_item">
+                        <h4>CDT</h4>
+                        <img class="skills_img" src="chrome_icon.png" alt="chrome">
+                </li>
+                <li class="skills_item">
+                        <h4>VSCode</h4>
+                        <img class="skills_img" src="vs_icon.png" alt="vs">
+                </li>
+                </ul>
+                </section>
+                    <section class="strength">
+                        <h3>Strength</h3>
+                        <ul class="strength_list">
+                            <li class="strength_item">good-mannered</li>
+                            <li class="strength_item">flexibility</li>
+                            <li class="strength_item">creativity</li>
+                            <li class="strength_item">perseverance</li>
+                            <li class="strength_item">good social skills</li>
+                            <li class="strength_item">team player</li>
+                            <li class="strength_item">open-minded</li>
+                            <li class="strength_item">responsibility</li>
+                            <li class="strength_item">punctuality</li>
+                            <li class="strength_item">stress-resistance</li></ul>
+                    </section>
+        <section id="code">
+           <h3>Code Example:</h3>
+            <pre>
+                <code class="language-js">
+    function likes(names) {
+        names = names || [];
+        switch(names.length){
+            case 0: return 'no one likes this'; break;
+            case 1: return names[0] + ' likes this'; break;
+            case 2: return names[0] + ' and ' + names[1] + ' like this'; break;
+            case 3: return names[0] + ', ' + names[1] + ' and ' + names[2] + ' like this'; break;
+            default: return names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this';
+        }
+        }
+            </code>
+        </pre>
+        </section>
+        <section id="exp">
+            <h3>Working Experience</h3>
+            <p> 5-year career in a restaurant (hostess-waitress-administrator-trainee).</p>
+        </section>
+        <section id="edu">
+            <h3>Education</h3>
+            <p>Belarus State Economic University (The high School of Tourism)
+                BeOnMax courses (HTML/CSS, Bootstrap, HTML/CSS from beginner to advanced)</p>
+                <ul class="sert">
+                    <li class="sert_item"><img src="bootstrap.jpg" alt="bootstrap"></li>
+                    <li class="sert_item"><img src="html.jpg" alt="html"></li>
+            </ul>
+        </section>
+        <section id="lang">
+            <h3>Languages</h3>
+            <ul class="lang_list">
+                <li>English: B2</li>
+                <li>German: A1</li>
+                <li>Russian: Native</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <ul class="footer_ul">
+            <li><a href="https://github.com/irinapodoliak" class="github"> My Github Page </a></li>
+            <li><a href="https://rs.school/js/">Register on course</a></li>
+        </ul>
+       
+        <div class="img">
+            <a href="https://app.rs.school"><img src="rs_school_js.svg" alt="logo"></a>  
+        </div>
+        <time>2021-09-12</time>
+    </footer>
     
 </body>
 </html>
